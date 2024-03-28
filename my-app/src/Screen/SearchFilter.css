@@ -1,0 +1,33 @@
+.search-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .result-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .result-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .search-container {
+      padding: 10px;
+    }
+  
+    .result-item {
+      font-size: 16px;
+    }
+  }
