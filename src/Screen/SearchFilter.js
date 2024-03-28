@@ -3,6 +3,7 @@ import './SearchFilter.css'; // Import the CSS file for styling
 
 function SearchFilter() {
   // Sample data (replace with your actual data)
+   // eslint-disable-next-line
   const [data, setData] = useState([
     { id: 1, name: 'C' },
     { id: 2, name: 'Cpp' },
@@ -14,8 +15,6 @@ function SearchFilter() {
     { id: 8, name: 'C++' },
     { id: 9, name: 'Swift' },
     { id: 10, name: 'Go' },
-  
-
 
   ]);
 
