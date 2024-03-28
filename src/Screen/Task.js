@@ -68,10 +68,10 @@ export default function Task() {
             onChange={(e) => {
               setNewBook(e.target.value);
             }}
-            placeholder="Enter a new Programming Language"
+            placeholder="Enter a new programming Language"
           />
           <button  class="btn" onClick={addBook}>
-            Add Book
+            Add programming Language
           </button>
           <div>
             <input
