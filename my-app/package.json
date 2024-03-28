@@ -14,12 +14,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-   
-    "eject": "react-scripts eject",
+    "test": "react-scripts test",
     "build": "babel src -d lib",
-    "test": "jest"
+    "prebuild": "jest",
+    "eject": "react-scripts eject"
   },
-  
   "eslintConfig": {
     "extends": [
       "react-app",
