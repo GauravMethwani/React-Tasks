@@ -1,0 +1,12 @@
+[
+    { "customerName": "John Doe", "lastSeen": "2023-10-15", "orders": 5, "totalSpent": 250, "lastPurchase": "2023-10-10", "news": "Yes", "segment": "Premium" },
+    { "customerName": "Jane Smith", "lastSeen": "2023-09-20", "orders": 8, "totalSpent": 400, "lastPurchase": "2023-09-15", "news": "No", "segment": "Standard" },
+    { "customerName": "Alice Johnson", "lastSeen": "2023-11-05", "orders": 3, "totalSpent": 150, "lastPurchase": "2023-11-01", "news": "Yes", "segment": "Premium" },
+    { "customerName": "Michael Brown", "lastSeen": "2023-08-18", "orders": 12, "totalSpent": 600, "lastPurchase": "2023-08-15", "news": "No", "segment": "Standard" },
+    { "customerName": "Emily Williams", "lastSeen": "2023-12-20", "orders": 7, "totalSpent": 350, "lastPurchase": "2023-12-15", "news": "Yes", "segment": "Premium" },
+    { "customerName": "David Jones", "lastSeen": "2023-07-10", "orders": 4, "totalSpent": 200, "lastPurchase": "2023-07-05", "news": "No", "segment": "Standard" },
+    { "customerName": "Sophia Anderson", "lastSeen": "2023-10-30", "orders": 9, "totalSpent": 450, "lastPurchase": "2023-10-25", "news": "Yes", "segment": "Premium" },
+    { "customerName": "James Wilson", "lastSeen": "2023-06-25", "orders": 6, "totalSpent": 300, "lastPurchase": "2023-06-20", "news": "No", "segment": "Standard" },
+    { "customerName": "Olivia Martinez", "lastSeen": "2023-09-05", "orders": 10, "totalSpent": 500, "lastPurchase": "2023-09-01", "news": "Yes", "segment": "Premium" },
+    { "customerName": "Liam Taylor", "lastSeen": "2023-05-15", "orders": 2, "totalSpent": 100, "lastPurchase": "2023-05-10", "news": "No", "segment": "Standard" }
+  ]

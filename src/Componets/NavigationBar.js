@@ -32,6 +32,9 @@ function NavigationBar() {
         <li className='list'>
           <Link to="/SeachFilter">SearchFilter</Link>
         </li>
+        <li className='list'>
+        <Link to="/DataGrid">DataGrid</Link>
+      </li>
       </ul>
     </nav>
   );

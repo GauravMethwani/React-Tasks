@@ -6,6 +6,7 @@ import NavigationBar from './Componets/NavigationBar';
 import SearchFilter from './Screen/SearchFilter';
 import Home from './Screen/Home';
 import Footer from './Componets/Footer';
+import DataGrid from './Screen/DataGrid';
  // Import the Navigation.css file for styling
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/tasks" exact element={<Task/>} />
           <Route path="/counter" element={<NumberCounter/>} />
           <Route path="/SeachFilter" element={<SearchFilter/>} />
+          <Route path="/DataGrid" element={<DataGrid/>} />
         </Routes>
       <Footer/>
     </Router>
