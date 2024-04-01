@@ -37,7 +37,8 @@ const DataGrid = () => {
 
   const filteredData = data.filter(item =>
     item.customerName.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    item.segment.toLowerCase().includes(searchTerm.toLowerCase())
+    item.segment.toLowerCase().includes(searchTerm.toLowerCase())||
+    item.lastSeen.includes(searchTerm.toLowerCase())|| item.lastPurchase.includes(searchTerm.toLowerCase()) ||  item.totalSpent.toString().toLowerCase().includes(searchTerm.toLowerCase())||  item.orders.toString().toLowerCase().includes(searchTerm.toLowerCase())||  item.lastSeen.toString().toLowerCase().includes(searchTerm.toLowerCase())||  item.lastPurchase.toString().toLowerCase().includes(searchTerm.toLowerCase())||  item.news.toLowerCase().includes(searchTerm.toLowerCase())||  item.segment.toLowerCase().includes(searchTerm.toLowerCase()) || Object.values(item).some(val => typeof val === 'string' && val.toLowerCase().includes(searchTerm.toLowerCase()))
   );
 
   const sortedData = filteredData.sort((a, b) => {
