@@ -7,6 +7,7 @@ import SearchFilter from './Screen/SearchFilter';
 import Home from './Screen/Home';
 import Footer from './Componets/Footer';
 import DataGrid from './Screen/DataGrid';
+import DragDrop from './Screen/DragDrop';
  // Import the Navigation.css file for styling
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
           <Route path="/counter" element={<NumberCounter/>} />
           <Route path="/SeachFilter" element={<SearchFilter/>} />
           <Route path="/DataGrid" element={<DataGrid/>} />
+          <Route path="/DragDrop" element={<DragDrop/>} />
+
         </Routes>
       <Footer/>
     </Router>

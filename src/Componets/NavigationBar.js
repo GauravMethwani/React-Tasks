@@ -35,7 +35,11 @@ function NavigationBar() {
         <li className='list'>
         <Link to="/DataGrid">DataGrid</Link>
       </li>
+      <li className='list'>
+      <Link to="/DragDrop">DragDrop</Link>
+    </li>
       </ul>
+
     </nav>
   );
 }
