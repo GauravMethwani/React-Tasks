@@ -20,7 +20,7 @@ function App() {
           <Route path="/counter" element={<NumberCounter/>} />
           <Route path="/SeachFilter" element={<SearchFilter/>} />
           <Route path="/DataGrid" element={<DataGrid/>} />
-          <Route path="/DragDrop" element={<DragDrop/>} />
+    
 
         </Routes>
       <Footer/>
